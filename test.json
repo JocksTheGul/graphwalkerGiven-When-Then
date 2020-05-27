@@ -1,0 +1,64 @@
+{
+  "requirements": [
+    {
+      "given": "The browser access the site",
+      "when": "The browser goes to the homepage",
+      "then": "The browser is browsing the Homepage",
+      "name": ""
+    },
+    {
+      "given": "The browser is browsing the Homepage",
+      "when": "The user access the login page",
+      "then": "The browser shows the login page",
+      "name": ""
+    },
+    {
+      "given": "The browser shows the login page",
+      "when": "The user successfully log in",
+      "then": "The site is setting login",
+      "name": ""
+    },
+    {
+      "given": "The browser shows the login page",
+      "when": "The user fails to log in",
+      "then": "The browser shows the login page",
+      "name": ""
+    },
+    {
+      "given": "The site is setting login",
+      "when": "The site goes back to homepage",
+      "then": "The browser is browsing the Homepage",
+      "name": ""
+    },
+    {
+      "given": "The browser is browsing the Homepage",
+      "when": "The user access the profile page",
+      "then": "The browser shows the profile page",
+      "name": ""
+    },
+    {
+      "given": "The browser shows the profile page",
+      "when": "The site goes back to homepage",
+      "then": "The browser is browsing the Homepage",
+      "name": ""
+    },
+    {
+      "given": "loggedIn = false",
+      "when": "",
+      "then": "",
+      "name": ""
+    },
+    {
+      "given": "",
+      "when": "",
+      "then": "loggedIn = true",
+      "name": "setting login"
+    },
+    {
+      "given": "",
+      "when": "loggedIn == true",
+      "then": "",
+      "name": "access the profile page"
+    }
+  ]
+}
