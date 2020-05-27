@@ -12,3 +12,6 @@ How to apply and run extension:
 8. Click Add Element button
 
 Note: f12 for debugging
+```bash
+test.json contains a JSON file that has the set format. Can also be used in the extension.
+```
